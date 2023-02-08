@@ -6,3 +6,4 @@ urllib3==1.24
 certifi==2018.11.29
 flask===2.2.2
 gunicorn===20.0.0
+flask-cors===2.1.0
