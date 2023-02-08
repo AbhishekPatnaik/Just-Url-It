@@ -79,7 +79,7 @@ class Page():
             try:
                 page = http.get(self.url)
             except HTTPError as e:
-                self.warn(f'Returned {e}')
+#                 self.warn(f'Returned {e}')
                 return
             encoding = 'ascii'
 
